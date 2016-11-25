@@ -34,4 +34,11 @@ gulp.task('build:css', () => {
     .pipe(gulp.dest(config.styles.dest));
 });
 
-gulp.task('default', ['build:css', 'build:html']);
+gulp.task('watch',function () {
+  gulp.watch('./src/index.html',['build:html']);
+  gulp.watch('./src/sass/**/*.scss',['build:css']);
+});
+
+gulp.task('build', ['build:css', 'build:html']);
+
+gulp.task('default', ['watch']);
