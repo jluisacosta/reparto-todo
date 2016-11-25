@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Home</title>
+    <meta charset="utf-8">
+    <meta name="format-detection" content="telephone=no"/>
+    <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"/>
+    <link rel="icon" href="images/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/rd-mailform.css">
+    <link rel="stylesheet" href="css/material-design.css">
+    <link rel="stylesheet/less" href="css/font-awesome.css">
+    <link rel="stylesheet" href="css/google-map.css">
+    <!--[if lt IE 9]>
+    <html class="lt-ie9">
+    <div style=' clear: both; text-align:center; position: relative;'>
+        <a href="http://windows.microsoft.com/en-US/internet-explorer/..">
+            <img src="images/ie8-panel/warning_bar_0000_us.jpg" border="0" height="42" width="820"
+                 alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today."/>
+        </a>
+    </div>
+    <script src="js/html5shiv.js"></script>
+    <![endif]-->
+    <script src="js/jquery.js"></script>
+    <script src='js/device.min.js'></script>
+    <script type="text/javascript" src="js/wow.js"></script>
+    <script>
+        new WOW().init();
+    </script>
+
+
+</head>
+<body>
+<div class="page">
+    <!--========================================================
+                              HEADER
+    =========================================================-->
+    <header>
+        <section>
+            <div id="header">
+                <div class="container">
+                    <div class="brand">
+                           <a href="./">
+                               <span class="heading-1">Express</span><br>
+                               <span class="heading-6">DELIVERY SERVICE</span>
+                           </a>
+                        <span  class="brand-slogan heading-3">A reliable and cost effective
+                            delivery company!</span>
+                    </div>
+                    <div class="booking_form row">
+                        <form class='rd-mailform' method="post" action="bat/rd-mailform.php">
+                            <input type="hidden" name="form-type" value="contact"/>
+                            <fieldset class="">
+                                <div class="col-md-12 col-lg-4">
+                                    <label data-add-placeholder data-add-icon>
+                                        <input type="text"
+                                               name="name"
+                                               placeholder="FULL NAME"
+                                               data-constraints="@NotEmpty @LettersOnly"/>
+                                    </label>
+                                </div>
+                                <div class="col-md-12 col-lg-4">
+                                    <label data-add-placeholder data-add-icon>
+                                        <input type="text"
+                                               name="email"
+                                               placeholder="E-MAIL"
+                                               data-constraints="@NotEmpty @Email"/>
+                                    </label>
+                                </div>
+                                <div class="col-md-12 col-lg-4">
+                                    <label data-add-placeholder data-add-icon>
+                                        <input type="text"
+                                               name="phone"
+                                               placeholder="PHONE:"
+                                               data-constraints="@Phone"/>
+                                    </label>
+                                </div>
+                                <div class="mfControls">
+
+                                    <button class="btn-primary btn-primary fa-sign-out" type="submit">Get started now!</button>
+                                </div>
+                                <div class="mfInfo"></div>
+                            </fieldset>
+                        </form>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+    </header>
+    <!--========================================================
+                              MAIN
+    =========================================================-->
+    <div class="main text-center">
+
+        <!--section1-->
+        <section class="well">
+            <div class="container">
+                <div class="row flow-offset-1">
+                    <div class="col-md-6 col-sm-6  col-lg-3"
+                         style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap">
+                            <img src="images/page01_img01.jpg" alt="">
+
+                            <div class="btn_wrap">
+                                <a href="#" class="btn"></a>
+                            </div>
+
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Shipping</h5>
+
+                            <p>Here’s where you can send
+                                a parcel, get express shipping rates
+                                and find locations. </p>
+                        </div>
+
+                    </div>
+                    <div class="col-md-6 col-sm-6 col-lg-3"
+                         style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap">
+                            <img src="images/page01_img02.jpg" alt="">
+
+                            <div class="btn_wrap">
+                                <a href="#" class="btn"></a>
+                            </div>
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Tracking</h5>
+
+                            <p>Here’s the fastest way to check the status of your shipment. </p>
+                        </div>
+                    </div>
+                    <div class="col-md-6 col-sm-6  col-lg-3"
+                         style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap">
+                            <img src="images/page01_img03.jpg" alt="">
+
+                            <div class="btn_wrap">
+                                <a href="#" class="btn"></a>
+                            </div>
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Support</h5>
+
+                            <p>No need to call Customer
+                                Service – our online results give
+                                you real-time.</p>
+                        </div>
+                    </div>
+                    <div class=" col-md-6 col-sm-6  col-lg-3"
+                         style="visibility: visible; animation-name: fadeInUp;">
+                        <div class="img_wrap">
+                            <img src="images/page01_img04.jpg" alt="">
+
+                            <div class="btn_wrap">
+                                <a href="#" class="btn"></a>
+                            </div>
+                        </div>
+                        <div class="text_wrap">
+                            <h5>Customs Services</h5>
+
+                            <p>We processes millions of Customs entries every day, making us one of the world's largest
+                                Customs brokers. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- END section1-->
+
+        <!--section2-->
+        <section class="well well_2 index text-md-left">
+            <div class="container">
+                <ul class="row index_list">
+                    <li class="col-md-6 col-sm-12 col-xs-12 wow fadeInRight animated"
+                        style="visibility: visible; animation-name: fadeInRight;">
+                        <h4>Our Values and Vision</h4>
+                        <h6>Our goal every day is to deliver on our
+                            promises, so you can deliver on yours.</h6>
+
+                        <p>We know that the Customer is king. Everything we do surrounds what our paying
+                            Customers and their Customers want, built on a solid foundation of service. Our aim
+                            is to make every conceivable effort to get our deliveries to their final destination
+                            in accordance with the service level and the greatest of care.</p>
+
+                        <div class="btn_wrap">
+                            <a href="#" class="btn"></a>
+                        </div>
+                    </li>
+                    <li class="col-md-5 col-sm-12 col-xs-12 wow fadeInRight animated"
+                        style="visibility: visible; animation-name: fadeInRight;">
+                        <h4>How We Can Help</h4>
+                        <h6>Providing a level of service that strives
+                            to meet our aim.</h6>
+
+                        <p>For your untracked items, all you need to do is ensure your mail is properly
+                            addressed and counted, then complete our online waybill, place into the sack,
+                            close with bag tie and hand to the driver. We offer the best customer service
+                            and operational excellence!</p>
+
+                        <div class="btn_wrap">
+                            <a href="#" class="btn"></a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!--END section2-->
+
+        <!--section3-->
+        <section class="well_3">
+            <div class="container">
+                <div class="row">
+                    <div class="primary">
+                        <h3>Main Services</h3>
+                        <h6>The best customer service <br/>
+                            and operational excellence</h6>
+
+                        <div class="text-md-left  col-md-6 col-sm-6 col-xs-12 wow fadeInLeft animated"
+                             style="visibility: visible; animation-name: fadeInUp;">
+                            <article>
+                                <div class="thumbnail">
+                                    <img src="images/page01_img06.jpg" alt="#">
+
+                                    <div class="caption">
+                                        <h4><a href="#">Express Service </a></h4>
+                                        <h6>The order will be delivered within 4 hours after the order is placed</h6>
+                                    </div>
+                                </div>
+                                <div class="btn_wrap">
+                                    <a href="#" class="btn"></a>
+                                </div>
+                            </article>
+                        </div>
+                        <div class="text-md-left col-md-6 col-sm-6 col-xs-12 wow fadeInLeft animated"
+                             style="visibility: visible; animation-name: fadeInUp;">
+                            <article>
+                                <div class="thumbnail">
+                                    <img src="images/page01_img07.jpg" alt="#">
+
+                                    <div class="caption">
+                                        <h4><a href="#">Sameday Service </a></h4>
+                                        <h6>The Order will be delivered the same day if the order is placed before
+                                            11am </h6>
+                                    </div>
+                                </div>
+                                <div class="btn_wrap">
+                                    <a href="#" class="btn"></a>
+                                </div>
+                            </article>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+        <div class="map">
+            <div id="google-map" class="map_model"></div>
+            <ul class="map_locations">
+                <li data-x="-73.9874068" data-y="40.643180">
+                    <p> 9863 - 9867 Mill Road,
+                        Cambridge, MG09 99HT <span>+1 800 603 6035</span></p>
+                </li>
+            </ul>
+        </div>
+        <section class="well_1 bg-primary">
+            <div class="container text-center text-md-left">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft animated" data-wow-delay="0.2s"
+                         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <div class="box">
+                            <div class="box_aside">
+                                <span class="fa-envelope-o"> </span>
+                            </div>
+                            <div class="box_cnt__no_flow">
+                                <h4>Subscribe to <br/> our Newsletter</h4>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                        <div class="subscribe">
+                            <form class="rd-mailform mailform" method="post" action="bat/rd-mailform.php">
+                                <input type="hidden" name="form-type" value="subscribe"/>
+                                <fieldset>
+                                    <label data-add-placeholder>
+                                        <input type="text"
+                                               name="email"
+                                               placeholder="your email address"
+                                               data-constraints="@NotEmpty @Email"/>
+                                    </label>
+
+                                    <div class="mfControls">
+                                        <button class="btn-primary" type="submit">subscribe</button>
+                                    </div>
+
+                                    <div class="mfInfo"></div>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+    <!--========================================================
+                              FOOTER
+    ==========================================================-->
+    <footer>
+        <div id="footer">
+            <div class="container">
+                <div class="brand text-center">
+                    <a href="./">
+                        <span class="heading-1">Express</span><br>
+                        <span class="heading-6">DELIVERY SERVICE</span>
+                    </a>
+                </div>
+                <div class="copyright">
+                    &#169;<span id="copyright-year">2016</span>
+                    |
+                    All Rights Reserved
+                    <!-- {%FOOTER_LINK} -->
+                </div>
+                <ul class="inline-list">
+                    <li><a href="#" class="fa fa-instagram"></a></li>
+                    <li><a href="#" class="fa fa-twitter"></a></li>
+                    <li><a href="#" class="fa fa-facebook"></a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+</div>
+<script src="js/script.js"></script>
+
+<!--Coded by JeremyLuis-->
+</body>
+</html>

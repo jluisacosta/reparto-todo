@@ -1,0 +1,47 @@
+//========================================================
+//                     Variables
+//=========================================================
+
+$scheme-1: (
+    primary: #afc953,
+    secondary: #2c2c2d,
+    default: #fff
+);
+
+$scheme-2: (
+    primary: #2196F3,
+    secondary: #31353d,
+    default: #cacaca
+);
+
+$scheme-3: (
+    primary: #66BB6A,
+    secondary: #31353d,
+    default: #cacaca
+);
+
+$scheme-4: (
+    primary: #FFB74D,
+    secondary: #31353d,
+    default: #cacaca
+);
+
+$scheme-5: (
+    primary: #78909C,
+    secondary: #31353d,
+    default: #cacaca
+);
+
+$schemes: ($scheme-1, $scheme-2, $scheme-3, $scheme-4, $scheme-5);
+
+$default:#2c2c2d;
+$primary: #afc953;
+$contrast:#fff;
+$white:#fff;
+
+$default-sec:lighten(saturate(adjust_hue($default, -26.66666666666663), 3.49178910976664%), 20.784313725490197%);;
+
+$material: "material-design";
+
+$default-font:'Arial', sans-serif;
+$sec-font:'Open Sans', sans-serif;
