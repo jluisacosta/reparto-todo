@@ -175,6 +175,50 @@
         </section>
         <!-- END section1-->
 
+        <!-- Subscribe section-->
+        <section class="well_1 bg-primary">
+            <div class="container text-center text-md-left">
+                <div class="row">
+                    <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft animated" data-wow-delay="0.2s"
+                         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
+                        <div class="box">
+                            <div class="box_aside">
+                                <span class="fa-envelope-o"> </span>
+                            </div>
+                            <div class="box_cnt__no_flow">
+                                <h4>Recibe <strong>noticias</strong><br/>
+                                e <strong>información</strong></h4>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
+                        <div class="subscribe">
+                            <form class="rd-mailform mailform" method="post" action="bat/rd-mailform.php">
+                                <input type="hidden" name="form-type" value="subscribe"/>
+                                <fieldset>
+                                    <label data-add-placeholder>
+                                        <input type="text"
+                                               name="email"
+                                               placeholder="Tu e-mail"
+                                               data-constraints="@NotEmpty @Email"/>
+                                    </label>
+
+                                    <div class="mfControls">
+                                        <button class="btn-primary" type="submit">Suscribirme</button>
+                                    </div>
+
+                                    <div class="mfInfo"></div>
+
+                                </fieldset>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End subscribe section-->
+
         <!--section2-->
         <section class="well well_2 index text-md-left">
             <div class="container">
@@ -270,47 +314,6 @@
                 </li>
             </ul>
         </div>
-        <section class="well_1 bg-primary">
-            <div class="container text-center text-md-left">
-                <div class="row">
-                    <div class="col-lg-7 col-md-6 col-sm-12 col-xs-12 wow fadeInLeft animated" data-wow-delay="0.2s"
-                         style="visibility: visible; animation-delay: 0.2s; animation-name: fadeInLeft;">
-                        <div class="box">
-                            <div class="box_aside">
-                                <span class="fa-envelope-o"> </span>
-                            </div>
-                            <div class="box_cnt__no_flow">
-                                <h4>Subscribe to <br/> our Newsletter</h4>
-                            </div>
-                        </div>
-
-                    </div>
-                    <div class="col-lg-5 col-md-6 col-sm-12 col-xs-12">
-                        <div class="subscribe">
-                            <form class="rd-mailform mailform" method="post" action="bat/rd-mailform.php">
-                                <input type="hidden" name="form-type" value="subscribe"/>
-                                <fieldset>
-                                    <label data-add-placeholder>
-                                        <input type="text"
-                                               name="email"
-                                               placeholder="your email address"
-                                               data-constraints="@NotEmpty @Email"/>
-                                    </label>
-
-                                    <div class="mfControls">
-                                        <button class="btn-primary" type="submit">subscribe</button>
-                                    </div>
-
-                                    <div class="mfInfo"></div>
-
-                                </fieldset>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-        </section>
     </div>
     <!--========================================================
                               FOOTER

@@ -618,6 +618,9 @@ header {
   }
   .subscribe {
     max-width: 435px;
+    .mfInput input {
+      background-color: $contrast;
+    }
     .mfControls {
       margin-top: 0;
       word-spacing: 10px;
@@ -632,7 +635,7 @@ header {
       line-height: 19px;
       font-weight: 600;
       background: $primary;
-      color:$contrast;
+      color:$default;
       text-transform: uppercase;
       font-family: $sec-font;
       @include transition(0.3s);
@@ -643,6 +646,7 @@ header {
       -moz-backface-visibility: hidden;
       backface-visibility: hidden;
       &:hover {
+        color: $contrast;
         background: darken($primary, 20%)
       }
       &:after {

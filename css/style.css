@@ -1030,6 +1030,10 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
   max-width: 435px;
 }
 
+.main .subscribe .mfInput input {
+  background-color: #fff;
+}
+
 .main .subscribe .mfControls {
   margin-top: 0;
   word-spacing: 10px;
@@ -1044,7 +1048,7 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
   line-height: 19px;
   font-weight: 600;
   background: #f8dc20;
-  color: #fff;
+  color: #000;
   text-transform: uppercase;
   font-family: "Open Sans", sans-serif;
   -webkit-transition: 0.3s;
@@ -1057,6 +1061,7 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .subscribe .btn-primary:hover {
+  color: #fff;
   background: #ad9705;
 }
 
