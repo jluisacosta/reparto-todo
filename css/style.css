@@ -236,7 +236,7 @@ strong {
   transform: translateX(-50%);
   overflow: hidden;
   padding-bottom: 33px;
-  display: inline-block;
+  display: none;
   -webkit-transition: 0.5s;
   transition: 0.5s;
 }
@@ -870,31 +870,37 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .img_wrap:before {
-  right: -1px;
-  bottom: -2px;
-  content: "";
-  position: absolute;
-  display: block;
-  z-index: 2;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 0 0 91px 142px;
-  border-color: transparent transparent #ffffff transparent;
+  /*right: -1px;
+      //@include transform(rotate(35deg));
+      bottom: -2px;
+      content: "";
+      position: absolute;
+      display: block;
+      //background:$contrast;
+      z-index: 2;
+      //will-change: transform;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 0 0 91px 142px;
+      border-color: transparent transparent #ffffff transparent;*/
 }
 
 .main .img_wrap:after {
-  content: "";
-  position: absolute;
-  display: block;
-  z-index: 2;
-  left: -4px;
-  bottom: -2px;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 91px 0 0 132px;
-  border-color: transparent transparent transparent #ffffff;
+  /*content: "";
+      position: absolute;
+      display: block;
+      //background:$contrast;
+      z-index: 2;
+      left: -4px;
+      //@include transform(rotate(-33deg));
+      bottom: -2px;
+      //will-change: transform;
+      width: 0;
+      height: 0;
+      border-style: solid;
+      border-width: 91px 0 0 132px;
+      border-color: transparent transparent transparent #ffffff;*/
 }
 
 .main .text_wrap {

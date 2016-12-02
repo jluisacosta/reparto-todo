@@ -223,7 +223,7 @@ strong {
   @include transform(translateX(-50%));
   overflow: hidden;
   padding-bottom: 33px;
-  display: inline-block;
+  display: none;
   @include transition(0.5s);
 }
 
@@ -482,7 +482,7 @@ header {
       display: inline-block;
     }
     &:before {
-      right: -1px;
+      /*right: -1px;
       //@include transform(rotate(35deg));
       bottom: -2px;
       content: "";
@@ -495,10 +495,10 @@ header {
       height: 0;
       border-style: solid;
       border-width: 0 0 91px 142px;
-      border-color: transparent transparent #ffffff transparent;
+      border-color: transparent transparent #ffffff transparent;*/
     }
     &:after {
-      content: "";
+      /*content: "";
       position: absolute;
       display: block;
       //background:$contrast;
@@ -511,7 +511,7 @@ header {
       height: 0;
       border-style: solid;
       border-width: 91px 0 0 132px;
-      border-color: transparent transparent transparent #ffffff;
+      border-color: transparent transparent transparent #ffffff;*/
     }
   }
   .text_wrap {
