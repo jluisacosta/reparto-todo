@@ -27,6 +27,7 @@ h1, h2, h3, h4, h5, h6,
   opacity: 1;
   font-family: $sec-font;
   font-weight: 300;
+  text-transform: uppercase;
 }
 
 h1,
@@ -154,6 +155,8 @@ strong {
   .heading-1 {
     font-size: 40px;
     line-height: 1.3;
+    font-weight: 700;
+    color: $default;
     @media(min-width: 768px){
       font-size: 96px;
       line-height: 60px;
@@ -166,7 +169,8 @@ strong {
   .heading-6 {
     margin-top: 20px;
     letter-spacing: 12px;
-      font-size: 15px;
+    font-size: 15px;
+    color: $primary;
     @media(min-width: 1500px){
       font-size: 20px;
     }
