@@ -73,7 +73,9 @@ h5 {
   font-size: 25px;
   line-height: 25px;
   padding: 35px 0 12px 0;
-  color: #f8dc20;
+  color: #000;
+  font-weight: 600;
+  text-transform: none;
 }
 
 h6,
@@ -909,12 +911,12 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .text_wrap {
-  text-align: center;
+  text-align: left;
 }
 
 .main .text_wrap p {
-  color: #858585;
-  padding: 0 20px 0 20px;
+  color: #000;
+  padding: 0;
 }
 
 .main .index {

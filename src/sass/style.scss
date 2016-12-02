@@ -71,8 +71,9 @@ h5 {
   font-size: 25px;
   line-height: 25px;
   padding: 35px 0 12px 0;
-  color: $primary;
-
+  color: $default;
+  font-weight: 600;
+  text-transform: none;
 }
 
 h6,
@@ -520,10 +521,12 @@ header {
     }
   }
   .text_wrap {
-    text-align: center;
+    text-align: left;
+
+
     p {
-      color: $p_color;
-      padding: 0 20px 0 20px;
+      color: $default;
+      padding: 0;
     }
   }
   .index {
