@@ -44,6 +44,11 @@ h2 {
   }
 }
 
+h3 {
+  color: #000;
+  text-align: left;
+}
+
 h3,
 .heading-3 {
   font-size: 28px;
