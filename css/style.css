@@ -920,7 +920,7 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .index {
-  background-color: #000;
+  background-color: #f8dc20;
 }
 
 .main .index .index_list {
@@ -932,7 +932,7 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .index .index_list li:before {
-  content: counter(li, upper-alpha);
+  content: '';
   counter-increment: li;
   font-size: 100px;
   line-height: 66px;
@@ -956,11 +956,12 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 
 .main .index .index_list li h4 {
   font-weight: 300;
-  color: #f8dc20;
+  color: #000;
   padding: 41px 0 35px 0;
 }
 
 .main .index .index_list li h6 {
+  display: none;
   text-transform: uppercase;
   padding: 20px 0;
   font-weight: 300;
@@ -973,7 +974,7 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .index .index_list li p {
-  color: #858585;
+  color: #000;
   padding-bottom: 70px;
 }
 

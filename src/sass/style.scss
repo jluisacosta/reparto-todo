@@ -530,14 +530,14 @@ header {
     }
   }
   .index {
-    background-color: $default;
+    background-color: $primary;
     .index_list {
       counter-reset: li;
 
       li {
         position: relative;
         &:before {
-          content: counter(li, upper-alpha);
+          content: '';//counter(li, upper-alpha);
           counter-increment: li;
           font-size: 100px;
           line-height: 66px;
@@ -559,10 +559,11 @@ header {
         }
         h4 {
           font-weight: 300;
-          color: $primary;
+          color: $default;
           padding: 41px 0 35px 0;
         }
         h6 {
+          display: none;
           text-transform: uppercase;
           padding: 20px 0;
           font-weight: 300;
@@ -571,7 +572,7 @@ header {
           }
         }
         p {
-          color: $p_color;
+          color: $default;
           padding-bottom: 70px;
           @media (min-width: 768px) {
             padding-right: 20px;
