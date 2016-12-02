@@ -47,7 +47,7 @@
   padding: 15px 25px 15px 71px;
   line-height: 34px;
   color: #000;
-  background: #fff;
+  background: #f8dc20;
 }
 
 .rd-mailform label input:-moz-placeholder, .rd-mailform label select:-moz-placeholder, .rd-mailform label textarea:-moz-placeholder {
@@ -779,7 +779,7 @@
   padding: 15px 25px 15px 71px;
   line-height: 34px;
   color: #000;
-  background: #fff;
+  background: #f8dc20;
   border: none;
   border-radius: 0;
 }

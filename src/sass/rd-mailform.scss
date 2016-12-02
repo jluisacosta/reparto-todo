@@ -18,7 +18,7 @@ $input-line-height: 34px;
 $input-offset-top: 10px;
 
 $input-color: $default;
-$input-background: $contrast;
+$input-background: $primary;
 
 $input-border-radius: 0;
 $input-border: none;
@@ -132,13 +132,3 @@ $placeholder-opacity: 1;
 @import "mailform_modules-1/_mf-icon.scss";
 @import "mailform_modules-1/_mf-select.scss";
 @import "mailform_modules-1/_mf-datepicker.scss";
-
-
-
-
-
-
-
-
-
-
