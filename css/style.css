@@ -985,11 +985,13 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .primary h3 {
-  color: #f8dc20;
+  color: #000;
   font-weight: 300;
+  text-align: center;
 }
 
 .main .primary h6 {
+  display: none;
   color: #353535;
   padding: 36px 0 74px;
   text-transform: uppercase;
@@ -997,7 +999,7 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .primary .thumbnail {
-  background: #000;
+  background: #fff;
 }
 
 .main .primary .thumbnail .caption {
@@ -1006,14 +1008,18 @@ header #header .btn-primary *, header #header .btn-primary *:before, header #hea
 }
 
 .main .primary .thumbnail .caption h6 {
-  color: #f8dc20;
+  display: block;
+  color: #000;
   text-align: left;
+  text-transform: none;
   padding-bottom: 0;
 }
 
 .main .primary .thumbnail .caption h4 {
   -webkit-transition: 0.3s;
   transition: 0.3s;
+  color: #000;
+  font-weight: 600;
 }
 
 .main .primary .thumbnail .caption h4 a:hover {

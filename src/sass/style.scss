@@ -583,27 +583,33 @@ header {
   }
   .primary {
     h3 {
-      color: $primary;
+      color: $default;
       font-weight: 300;
+      text-align: center;
     }
     h6 {
+      display: none;
       color: $default-sec;
       padding: 36px 0 74px;
       text-transform: uppercase;
       font-weight: 300;
     }
     .thumbnail {
-      background: $default;
+      background: $contrast;
       .caption {
         padding: 59px 75px 61px 50px;
         text-align: left;
         h6 {
-          color: $primary;
+          display: block;
+          color: $default;
           text-align: left;
+          text-transform: none;
           padding-bottom: 0;
         }
         h4 {
           @include transition(0.3s);
+          color: $default;
+          font-weight: 600;
           a:hover {
             color: $primary;
           }
