@@ -704,16 +704,17 @@ footer {
   width: 100%;
   background-size: cover;
   #footer {
-    background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
+    //background: rgba(0, 0, 0, 0.3) none repeat scroll 0 0;
     width: 100%;
-    padding-bottom: 202px;
+    padding-bottom: 100px;
     padding-top: 161px;
     .copyright {
-      padding-top: 138px;
+      color: $default;
+      padding-top: 20px;
       text-align: center;
     }
     .inline-list {
-      margin-top: 35px;
+      margin-top: 70px;
       text-align: center;
       li {
         display: inline-block;
@@ -732,6 +733,28 @@ footer {
         + li {
           margin-left: 16px;
         }
+      }
+    }
+
+    .heading-1 {
+      font-weight: 300;
+    }
+
+    .heading-6 {
+      color: $default;
+    }
+
+    .contact {
+      font-family: 'Open-Sans', sans-serif;
+      font-weight: 100;
+      font-size: 15px;
+      text-transform: uppercase;
+      margin-top: 50px;
+      color: $default;
+      text-align: center;
+
+      a {
+        text-transform: none;
       }
     }
   }
