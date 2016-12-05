@@ -1,6 +1,6 @@
 <?php
 
-$recipients = 'test@demolink.com';
+$recipients = 'repartotodo@gmail.com';
 //$recipients = '#';
 
 try {
@@ -77,7 +77,7 @@ try {
         $mail->FromName = $_POST['name'];
     }else{
         $mail->FromName = "Site Visitor";
-    } 
+    }
 
     foreach ($addresses[0] as $key => $value) {
         $mail->addAddress($value[0]);
