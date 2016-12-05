@@ -1297,6 +1297,43 @@ footer #footer .contact a {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  #header {
+    padding: 10px 0 !important;
+  }
+  #header .heading-1, #header .heading-6 {
+    display: none !important;
+  }
+  .cover-video, .cover-mask {
+    display: none;
+  }
+  .cover-img {
+    min-height: 720px;
+    width: auto;
+  }
+  .logo-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .logo-wrapper #logo {
+    height: 92px;
+  }
+  .topbar.row {
+    margin-bottom: 10px;
+  }
+  .appbtn {
+    margin-top: 20px;
+  }
+  .appbtn.first {
+    float: left;
+    margin-left: 0 !important;
+  }
+  .brand-slogan {
+    padding-top: 0 !important;
+  }
   .page header #header {
     padding-top: 50px;
     padding-bottom: 100px;
@@ -1343,6 +1380,9 @@ footer #footer .contact a {
     padding-top: 0;
     left: -38px;
     position: relative;
+  }
+  .page .text_wrap h5 {
+    padding-left: 20px;
   }
   .page .text_wrap p {
     padding: 0 20px 20px 20px;

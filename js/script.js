@@ -1,3 +1,20 @@
+/*Custom*/
+var $coverImg = $('.cover-img');
+
+function checkResponsive() {
+  if(window.matchMedia('(min-width: 320px) and (max-width: 767px)').matches){ //Mobile
+    $coverImg.attr('src', 'images/headermovil.jpg');
+  }else if(window.matchMedia('(min-width: 768px) and (max-width: 991px)').matches){ //Tablet
+    $coverImg.attr('src', 'images/header.jpg');
+  }else{ //Laptop
+    $coverImg.attr('src', 'images/header.jpg');
+  }
+}
+
+$(window).resize(checkResponsive);
+checkResponsive();
+/*End Custom*/
+
 function include(scriptUrl) {
     document.write('<script src="' + scriptUrl + '"></script>');
 }

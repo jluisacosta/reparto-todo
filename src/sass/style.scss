@@ -904,6 +904,46 @@ footer {
 }
 
 @media (min-width: 320px) and (max-width: 767px) {
+  #header {
+    padding: 10px 0 !important;
+
+    .heading-1, .heading-6 {
+      display: none !important;
+    }
+  }
+  .cover-video, .cover-mask {
+    display: none;
+  }
+  .cover-img {
+    min-height: 720px;
+    width: auto;
+  }
+  .logo-wrapper {
+    display: flex;
+    justify-content: center;
+
+    #logo {
+      height: 92px;
+    }
+  }
+
+  .topbar{
+    &.row {
+      margin-bottom: 10px;
+    }
+  }
+  .appbtn{
+    margin-top: 20px;
+    &.first {
+      float:left;
+      margin-left: 0 !important;
+    }
+  }
+
+  .brand-slogan {
+    padding-top: 0 !important;
+  }
+
   .page {
     header {
       #header {
@@ -956,8 +996,14 @@ footer {
         }
       }
     }
-    .text_wrap p {
-      padding: 0 20px 20px 20px;
+    .text_wrap {
+      h5 {
+        padding-left: 20px;
+      }
+
+      p {
+        padding: 0 20px 20px 20px;
+      }
     }
 
     h4 {
