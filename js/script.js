@@ -50,36 +50,36 @@ function lazyInit(element, func) {
                     validator: {
                         'constraints': {
                             '@LettersOnly': {
-                                message: 'Please use letters only!'
+                                message: 'Por favor introduce letras solamente!'
                             },
                             '@NumbersOnly': {
-                                message: 'Please use numbers only!'
+                                message: 'Por favor introduce números solamente!'
                             },
                             '@NotEmpty': {
-                                message: 'Field should not be empty!'
+                                message: 'Este campo no puede estar vacío!'
                             },
                             '@Email': {
-                                message: 'Enter valid e-mail address!'
+                                message: 'Introduce un e-mail válido!'
                             },
                             '@Phone': {
-                                message: 'Enter valid phone number!'
+                                message: 'Introduce un número de teléfono válido!'
                             },
                             '@Date': {
-                                message: 'Use MM/DD/YYYY format!'
+                                message: 'Usa el formato MM/DD/AAAA para la fecha!'
                             },
                             '@SelectRequired': {
-                                message: 'Please choose an option!'
+                                message: 'Por favor selecciona una opción!'
                             }
                         }
                     }
                 }, {
-                    'MF000': 'Sent',
-                    'MF001': 'Recipients are not set!',
-                    'MF002': 'Form will not work locally!',
-                    'MF003': 'Please, define email field in your form!',
-                    'MF004': 'Please, define type of your form!',
-                    'MF254': 'Something went wrong with PHPMailer!',
-                    'MF255': 'There was an error submitting the form!'
+                    'MF000': 'Enviado',
+                    'MF001': 'No se han definido destinatarios!',
+                    'MF002': 'El formulario no funciona de manera local!',
+                    'MF003': 'Por favor, define un campo "e-mail" en el formulario!',
+                    'MF004': 'Por favor, define el tipo de formulario!',
+                    'MF254': 'Algo salió mal al ejecutar PHPMailer!',
+                    'MF255': 'Ooops! Ocurrió un error.'
                 });
             }
         });
@@ -131,5 +131,3 @@ function lazyInit(element, func) {
         });
     }
 })(jQuery);
-
-
