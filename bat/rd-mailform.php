@@ -21,10 +21,10 @@ try {
     if (isset($_POST['form-type'])) {
         switch ($_POST['form-type']){
             case 'contact':
-                $subject = 'Mensaje enviado desde formulario de registro';
+                $subject = 'Formulario de Registro';
                 break;
             case 'subscribe':
-                $subject = 'Solicitud de suscripción';
+                $subject = 'Solicitud de Suscripción';
                 break;
             case 'order':
                 $subject = 'Solicitud de orden';
