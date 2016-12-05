@@ -1,11 +1,11 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
-  <head> 
+  <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="viewport" content="initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
     <title><!-- #{Subject} --></title>
-    <style type="text/css">  
+    <style type="text/css">
     #outlook a {
       padding: 0;
     }
@@ -58,10 +58,10 @@
     }
     </style>
   </head>
-  <body id="body-layout" style="background: #406c8d;">
+  <body id="body-layout" style="background: #f8dc20;">
     <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
       <tr>
-        <td align="center" valign="top" style="padding: 0 15px;background: #406c8d;">
+        <td align="center" valign="top" style="padding: 0 15px;background: #f8dc20;">
           <table align="center" cellpadding="0" cellspacing="0" border="0">
             <tr>
               <td height="15" style="height: 15px; line-height:15px;"></td>
@@ -76,7 +76,7 @@
                           <td height="30" style="height: 30px; line-height:30px;"></td>
                         </tr>
                         <tr>
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 32px; mso-line-height-rule: exactly; line-height: 32px; font-weight: 400; letter-spacing: 1px;color: #ffffff;">Notification</td>
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 32px; mso-line-height-rule: exactly; line-height: 32px; font-weight: 400; letter-spacing: 1px;color: #ffffff;">Notificación</td>
                         </tr>
                         <tr>
                           <td height="30" style="height: 30px; line-height:30px;"></td>
@@ -89,11 +89,11 @@
                       <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
                         <tr>
                           <td height="30" style="height: 30px; line-height:30px;"></td>
-                        </tr> 
-                        <tr> 
-                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #302f35;">Hi, someone left a message for you at <!-- #{SiteName} --></td> 
                         </tr>
-                        <tr> 
+                        <tr>
+                          <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 22px; font-weight: 400;color: #302f35;">Alguien envió un mensaje desde <!-- #{SiteName} --></td>
+                        </tr>
+                        <tr>
                           <td height="20" style="height: 20px; line-height:20px;"></td>
                         </tr>
                         <tr>
@@ -139,14 +139,14 @@
                                   <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
                                     <tr>
                                       <td width="40" align="left" valign="top" style="padding: 0 10px 0 0;font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;font-weight: 700;"><!-- #{FromState} --></td>
-                                      <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;"><!-- #{FromEmail} --></td> 
-                                    </tr> 
+                                      <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;"><!-- #{FromEmail} --></td>
+                                    </tr>
                                   	<!-- #{BeginInfo} -->
-                                    <tr> 
+                                    <tr>
                                       <td width="40" align="left" valign="top" style="padding: 0 10px 0 0;font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;font-weight: 700;"><!-- #{InfoState} --></td>
                                       <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;"><!-- #{InfoDescription} --></td>
                                     </tr>
-                                  	<!-- #{EndInfo} -->                                    
+                                  	<!-- #{EndInfo} -->
                                   </table>
                                 </td>
                               </tr>
@@ -158,7 +158,7 @@
                               </tr>
                               <tr>
                                 <td align="left" valign="top" style="font-family: Arial, sans-serif; font-size: 14px; mso-line-height-rule: exactly; line-height: 20px; font-weight: 400;color: #302f35;">
-                                <!-- #{MessageDescription} -->   
+                                <!-- #{MessageDescription} -->
                                 </td>
                               </tr>
                             </table>
@@ -180,7 +180,7 @@
               <td width="600" align="center" valign="top">
                 <table width="100%" align="center" cellpadding="0" cellspacing="0" border="0">
                   <tr>
-                    <td align="center" valign="top" style="font-family: Arial, sans-serif; font-size: 12px; mso-line-height-rule: exactly; line-height: 18px; font-weight: 400;color: #a1b4c4;">This is an automatically generated email, please do not reply.</td>
+                    <td align="center" valign="top" style="font-family: Arial, sans-serif; font-size: 12px; mso-line-height-rule: exactly; line-height: 18px; font-weight: 400;color: #a1b4c4;">www.repartotodo.com</td>
                   </tr>
                 </table>
               </td>

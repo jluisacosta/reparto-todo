@@ -1,6 +1,6 @@
 <?php
 
-$recipients = 'repartotodo@gmail.com';
+$recipients = 'repartotodo@gmail.com administracion@repartotodo.com';
 //$recipients = '#';
 
 try {
@@ -21,16 +21,16 @@ try {
     if (isset($_POST['form-type'])) {
         switch ($_POST['form-type']){
             case 'contact':
-                $subject = 'A message from your site visitor';
+                $subject = 'Mensaje enviado desde formulario de registro';
                 break;
             case 'subscribe':
-                $subject = 'Subscribe request';
+                $subject = 'Solicitud de suscripción';
                 break;
             case 'order':
-                $subject = 'Order request';
+                $subject = 'Solicitud de orden';
                 break;
             default:
-                $subject = 'A message from your site visitor';
+                $subject = 'Mensaje enviado desde formulario de registro';
                 break;
         }
     }else{
