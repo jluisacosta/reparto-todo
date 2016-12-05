@@ -110,7 +110,7 @@ function lazyInit(element, func) {
     var o = $('#google-map');
 
     if (o.length) {
-        include('//maps.google.com/maps/api/js');
+        include('//maps.google.com/maps/api/js?key=AIzaSyDP5m9uNisBBkIZBa8uUGrtiqXQ5O3RshU');
         include('js/jquery.rd-google-map.js');
         $(document).ready(function () {
             var head = document.getElementsByTagName('head')[0],
