@@ -184,6 +184,10 @@ header section {
   width: 150px;
 }
 
+.topbar .appbtn {
+  margin-top: 25px;
+}
+
 .topbar .appbtn img {
   width: 110px;
 }
@@ -1263,6 +1267,41 @@ footer #footer .contact a {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #header {
+    padding: 10px 0 !important;
+  }
+  #header .heading-1 {
+    font-size: 62px;
+  }
+  #header .heading-6 {
+    margin-top: 10px;
+  }
+  .cover-video, .cover-mask {
+    display: none;
+  }
+  .cover-img {
+    min-height: 800px;
+    width: auto;
+  }
+  #logo {
+    width: 120px;
+  }
+  .topbar.row {
+    margin-bottom: 20px;
+  }
+  .well.well_2 h4 {
+    line-height: 30px;
+    text-align: left;
+  }
+  .well.well_2 p {
+    text-align: left;
+  }
+  .brand-slogan {
+    padding-top: 30px !important;
+  }
+  .main .well_1 h4 {
+    font-size: 22px !important;
+  }
   .page header #header .booking_form .mfInput {
     margin: 15px auto;
     display: block;
@@ -1307,7 +1346,7 @@ footer #footer .contact a {
     display: none;
   }
   .cover-img {
-    min-height: 720px;
+    min-height: 730px;
     width: auto;
   }
   .logo-wrapper {
@@ -1332,7 +1371,14 @@ footer #footer .contact a {
     margin-left: 0 !important;
   }
   .brand-slogan {
-    padding-top: 0 !important;
+    padding-top: 10px !important;
+  }
+  .well.well_2 h4 {
+    line-height: 30px;
+    text-align: left;
+  }
+  .well.well_2 p {
+    text-align: left;
   }
   .page header #header {
     padding-top: 50px;

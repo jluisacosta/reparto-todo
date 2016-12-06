@@ -5,7 +5,7 @@ function checkResponsive() {
   if(window.matchMedia('(min-width: 320px) and (max-width: 767px)').matches){ //Mobile
     $coverImg.attr('src', 'images/headermovil.jpg');
   }else if(window.matchMedia('(min-width: 768px) and (max-width: 991px)').matches){ //Tablet
-    $coverImg.attr('src', 'images/header.jpg');
+    $coverImg.attr('src', 'images/headermovil.jpg');
   }else{ //Laptop
     $coverImg.attr('src', 'images/header.jpg');
   }

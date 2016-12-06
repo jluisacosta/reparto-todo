@@ -184,6 +184,7 @@ header section {
   }
 
   .appbtn {
+    margin-top: 25px;
     img {
       width: 110px;
     }
@@ -856,6 +857,50 @@ footer {
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
+  #header {
+    padding: 10px 0 !important;
+
+    .heading-1 {
+      font-size: 62px;
+    }
+
+    .heading-6 {
+      margin-top: 10px;
+    }
+  }
+  .cover-video, .cover-mask {
+    display: none;
+  }
+  .cover-img {
+    min-height: 800px;
+    width: auto;
+  }
+  #logo {
+    width: 120px;
+  }
+  .topbar{
+    &.row {
+      margin-bottom: 20px;
+    }
+  }
+
+  .well.well_2 {
+    h4 {
+      line-height: 30px;
+      text-align: left;
+    }
+
+    p {
+      text-align: left;
+    }
+  }
+
+  .brand-slogan {
+    padding-top: 30px !important;
+  }
+  .main .well_1 h4 {
+    font-size: 22px !important;
+  }
   .page {
     header {
       #header {
@@ -915,7 +960,7 @@ footer {
     display: none;
   }
   .cover-img {
-    min-height: 720px;
+    min-height: 730px;
     width: auto;
   }
   .logo-wrapper {
@@ -941,7 +986,17 @@ footer {
   }
 
   .brand-slogan {
-    padding-top: 0 !important;
+    padding-top: 10px !important;
+  }
+  .well.well_2 {
+    h4 {
+      line-height: 30px;
+      text-align: left;
+    }
+
+    p {
+      text-align: left;
+    }
   }
 
   .page {
